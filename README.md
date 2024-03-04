@@ -8,8 +8,9 @@ We collected data from the UNWTO and World Bank websites, cleaned the data in Py
 To interact with the Javascript powered visuals, the user will select a single country of interest from the dropdown menu.
 
 Once a country is selected, a series of visualizations depicting the relationship between tourism and GDP will be displayed.
-## Ethical Considerations
 
+## Ethical Considerations
+In order to limit algorithmic bias, we included data from all the countries provided from our public dataset sources, rather than selecting the top ten tourist destinations. Additionally, all variables used in our analysis are calculated from nation-wide metrics like GDP. 
 ## References
 Data collected from UNWTO and the World Bank
 
