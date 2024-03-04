@@ -65,7 +65,8 @@ function chart(country){
     
     let lineData = [{
         x: year,
-        y: gdpPercentage,
+        // y: gdpPercentage,
+        y: GDP,
         type: 'scatter', // Set the chart type to 'scatter' for a line chart
         mode: 'lines', // Show both lines and markers
         line: { color: 'rgb(75, 192, 192)' }, // Set the line color
@@ -74,9 +75,12 @@ function chart(country){
     }];
 
     let lineLayout = {
-        title: 'Percent Tourism GDP by Year', // Set the chart title
+        // title: 'Percent Tourism GDP by Year', // Set the chart title
+        title: 'GDP by Year', // Set the chart title
         xaxis: { title: 'Year' }, // Set the x-axis title
-        yaxis: { title: '% Tourism GDP of GDP' } // Set the y-axis title
+        // yaxis: { title: '% Tourism GDP of GDP' } // Set the y-axis title
+        yaxis: { title: 'GDP' } // Set the y-axis title
+
     };
 
     
