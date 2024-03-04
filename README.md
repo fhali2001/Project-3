@@ -10,7 +10,10 @@ To interact with the Javascript powered visuals, the user will select a single c
 Once a country is selected, a series of visualizations depicting the relationship between tourism and GDP will be displayed.
 
 ## Ethical Considerations
-In order to limit algorithmic bias, we included data from all the countries provided from our public dataset sources, rather than selecting the top ten tourist destinations. Additionally, all variables used in our analysis are calculated from nation-wide metrics like GDP. 
+To mitigate algorithmic bias, we incorporated data from all countries available in our public dataset sources, rather than solely focusing on the top ten tourist destinations. Furthermore, our analysis exclusively utilizes nation-wide metrics such as GDP for all variables. Our approach to data acquisition, implementation, and sourcing is detailed in the project overview, adhering strictly to ethical standards in data analytics. We ensured clarity and integrity for our audience by transparently addressing any biases and limitations through meticulous selection and cleaning of our datasets.
+ 
+To safeguard individual privacy, our analysis exclusively utilizes data points such as GDP or tourism percentages that do not involve personal information. This approach ensures the protection of all individuals included in the dataset. Our data points are recognized for their precision and dependability, derived from the transparent methodology disclosed by our trusted sources. This methodology aligns with professional data collection standards, bolstering the credibility of our analyses. 
+
 ## References
 Data collected from UNWTO and the World Bank
 
