@@ -19,7 +19,9 @@ CREATE TABLE GDP_tourism_data (
 	IndicatorName varchar,
 	IndicatorCode varchar,
 	Year INT,
-	GDP BIGINT
+	GDP BIGINT,
+	Tourism_GDP BIGINT,
+	Arrivals BIGINT
 );
 
 -- Select all to make sure table creation worked
