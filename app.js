@@ -17,24 +17,14 @@ for (let i = 0; i < jsonData.length; i++) {
 let uniqueCountries = new Set(countries)
 let uniqueArray = Array.from(uniqueCountries);
 let selector = document.querySelector("#selDataset");
+uniqueArray.sort();
+
 uniqueArray.map(elem => selector.innerHTML += `<option value="${elem}">${elem}</option>`)
 
 function optionChanged(country) {
-    // let canvas = document.querySelector("#stackedBar")
-    // const context = canvas.getContext('2d');
-    // context.clearRect(0, 0, canvas.width, canvas.height);
     
-   
-
-
-
     chart(country)
     
-    
-    // canvas.setAttribute("id","stackedBar")
-    // canvas.width = 400
-    // canvas.height = 400
-    // document.querySelector("stackedBarDiv").append(canvas)
 }
 
 
@@ -50,6 +40,7 @@ function chart(country){
     let year = resultArray.map(row => row.Year)
     
     let year2 = resultArray.map(row => row.Year)
+    year2.sort((a, b) => a - b);
 
     let year3 = resultArray.map(row => row.Year)
     
