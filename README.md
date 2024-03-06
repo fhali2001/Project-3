@@ -4,6 +4,14 @@ This is a data visualization project that focuses on the impact of tourism on to
 
 We collected data from the UNWTO and World Bank websites, cleaned the data in Python and stored it in a SQL database. Using Pandas and SQLAlchemy, we extracted and organized the data. Finally, we used JavaScript to design visualizations that include interactive elements such as a dropdown menu with several selected nations.
 
+## Files
+The webpage is stored under index.html.
+The code for our webpage is stored under app.js.
+The data for our webpage is stored under data.js.
+The two ipynb files contain the initial cleaning of our source data and conversion of data from CSV to JSON.
+The Cleaned data folder contains our cleaned CSV of data and the SQL database file.
+The Data Sources folder contains our raw data.
+
 ## How to Use
 To interact with the Javascript powered visuals, the user will select a single country of interest from the dropdown menu.
 
