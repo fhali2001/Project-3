@@ -17,6 +17,9 @@ To interact with the Javascript powered visuals, the user will select a single c
 
 Once a country is selected, a series of visualizations depicting the relationship between tourism and GDP will be displayed.
 
+## Library Used
+We utilized the chart.js library as our additional library not covered in class.
+
 ## Ethical Considerations
 To mitigate algorithmic bias, we incorporated data from all countries available in our public dataset sources, rather than solely focusing on the top ten tourist destinations. Furthermore, our analysis exclusively utilizes nation-wide metrics such as GDP for all variables. Our approach to data acquisition, implementation, and sourcing is detailed in the project overview, adhering strictly to ethical standards in data analytics. We ensured clarity and integrity for our audience by transparently addressing any biases and limitations through meticulous selection and cleaning of our datasets.
  
