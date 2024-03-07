@@ -1,8 +1,8 @@
 # Project-3
 ## Project Overview
-This is a data visualization project that focuses on the impact of tourism on top travel destinations in the world in terms of their gross domestic product (GDP). The study will focus on analyzing the historical trends of these top ten tourism destinations as of 2023.
+This is a data visualization project that focuses on the impact of tourism on top travel destinations in the world in terms of their gross domestic product (GDP). The study will focus on analyzing the trends of these tourism destinations during the time period between 2008 and 2021.
 
-We collected data from the UNWTO and World Bank websites, cleaned the data in Python and stored it in a SQL database. Using Pandas and SQLAlchemy, we extracted and organized the data. Finally, we used JavaScript to design visualizations that include interactive elements such as a dropdown menu with several selected nations.
+We collected data from the World Bank website, cleaned the data with Pandas, and stored it in a SQL database. We then used JavaScript to design visualizations that include interactive elements such as a dropdown menu with all available nations.
 
 ## Files
 The webpage is stored under index.html.
