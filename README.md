@@ -1,4 +1,4 @@
-# Project-3
+# Impact of Tourism on Economies
 ## Project Overview
 This is a data visualization project that focuses on the impact of tourism on top travel destinations in the world in terms of their gross domestic product (GDP). The study will focus on analyzing the trends of these tourism destinations during the time period between 2008 and 2021.
 
